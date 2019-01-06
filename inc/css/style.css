@@ -1,0 +1,291 @@
+/*
+Blue: 0844A4;
+LightBlue: A8C6FA;
+*/
+
+* {
+	color: #444444;
+	font-family: 'Century Gothic','Avenir','Helvetica neue','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h1,h2{
+	font-weight: 400;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1024px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-size: inherit;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+span,small {
+	color: inherit;
+	font-size: inherit;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+.wrapper-size {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 0;
+}
+
+/*top page*/
+#header {
+    padding: 5px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.logo-area,.menu {
+	display: inline-block;
+	vertical-align: bottom;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.logo-area {
+	width: 40%;
+}
+
+.menu {
+	width: 60%;
+}
+
+.menu-area {
+	text-align: right;
+	margin: 5px 0 0 0;
+}
+
+.menu-area li {
+	display: inline-block;
+	border-bottom: 3px solid #fff;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	margin: 0 10px;
+	padding: 5px 0;
+}
+
+.menu-area li:hover {
+	border-color: #0844A4;
+}
+
+.menu-area li a {
+	padding: 5px 0px;
+}
+
+.report-area {
+	text-align: right;
+}
+
+.report-area a {
+	background-color: #0844A4;
+	color: #fff;
+	border: 1px solid #A8C6FA;
+	border-radius: 4px;
+	padding: 3px 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#visual.top-image {
+	background-image: url(../img/top/top.jpg);
+	background-size: cover;
+	height: calc(100vh - 81px);
+}
+
+#visual .wrapper-size {
+	text-align: center;
+}
+
+.slogan {
+	color: #fff;
+	border-bottom: 3px solid #fff;
+	position: relative;
+	top: 50px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.mt60 {
+	margin-top: 60px;
+}
+
+.title-2 {
+	text-align: center;
+	margin: 80px 0 20px 0;
+}
+
+.title-2 h2 {
+	font-size: 22px;
+	border-bottom: 3px solid #0844A4;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.title-2 h2:before {
+	content: '';
+	background-image: url(../img/top/deco-title.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.title-2 h2 span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.service-button-area {
+	text-align: right;
+}
+
+.service-button-area a {
+	background-color: #0844A4;
+	color: #fff;
+	padding: 3px 25px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.top-service h3 {
+	font-size: 22px;
+	text-align: center;	
+	margin-bottom: 10px;
+}
+
+.top-service {
+	border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.top-service .right-line {
+	border-right: 1px dashed #0844A4;
+}
+
+.top-service .bottom-line {
+	border-bottom: 1px dashed #0844A4;
+}
+
+.top-badge-area {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.badge {
+	border-radius: 4px;
+	padding: 0 20px;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.badge.badge-blue {
+	background: #A8C6fA;
+}
+
+.badge.badge-pink {
+	background: #E692F8;
+}
+
+.badge.badge-yellow {
+	background: #FEFAC0;
+}
+
+.news-area {
+	padding: 0;
+}
+
+.news-item {
+	margin: 20px 0;
+	list-style: none;
+}
+
+.news-item .content {
+	margin-top: 5px;
+}
+
+.news-item .content a {
+	border-bottom: 1px solid #444;
+}
+
+.news-all {
+	text-align: right;
+}
+
+#footer {
+    background-color: #0844A4;
+    padding-bottom: 5px;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.sitemap-area {
+	/*display: flex;
+    justify-content: space-between;*/
+    font-size: 0;
+}
+
+.sitemap-block {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	padding: 0;
+}
+
+.sitemap-block.long {
+	width: 50%;
+	font-size: 0;
+}
+
+.sitemap-block li {
+	list-style: none;	
+}
+
+.sitemap-block.long li {
+	display: block;
+}
+
+.sitemap-block.long li.child-list {
+	display: inline-block;
+	width: 50%;
+}
+
+.child-list:before {
+    content: "-";
+    margin: 0 4px;
+    color: #fff;
+}
+
+.sitemap-block li a {
+	color: #fff;
+	font-size: 12px;
+}
