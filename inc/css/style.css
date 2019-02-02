@@ -88,7 +88,8 @@ a:hover {
 	transition-duration: 0.5s;
 }
 
-.menu-area li:hover {
+.menu-area li:hover,
+.menu-area li.active {
 	border-bottom: 1px solid #464646;
 }
 
@@ -106,7 +107,7 @@ a:hover {
 #visual.top-image {
 	background-image: url(../img/top/top.jpg);
 	background-size: cover;
-	height: calc(100vh - 100px);
+	height: calc(100vh - 280px);
 }
 
 .slogan {
@@ -115,6 +116,8 @@ a:hover {
 	letter-spacing: 16px;
 	font-weight: bold;
 	padding-top: 50px;
+	margin: 0 20px auto 20px;
+	text-shadow: 2px 2px 10px #33669980, -2px -2px 10px #33669980;
 }
 
 .eng-title {
@@ -143,13 +146,24 @@ a:hover {
 }
 
 .concept-area {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: space-around;
 	margin: 40px 0;
+	font-size: 0;
+}
+
+.concept-title {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+	padding-left: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.concept-area article {
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
 }
 
 .product-title {
@@ -199,6 +213,7 @@ a:hover {
 .product-content {
 	background-color: #F2F2F2;
 	padding: 60px 20px;
+	text-align: center;
 }
 
 .product-item {
@@ -210,6 +225,7 @@ a:hover {
 .product-item .badge {
 	font-weight: bold;
 	margin-bottom: 40px;
+	text-align: left;
 }
 
 .product-item .badge span {
@@ -237,7 +253,7 @@ a:hover {
 
 .product-item h3 {
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 19px;
 	margin: 0;
 	text-align: center;
 }
@@ -249,6 +265,7 @@ a:hover {
 
 .product-block p {
 	font-size: 12px;
+	text-align: left;
 }
 
 .block-title {
@@ -303,29 +320,29 @@ a:hover {
 }
 
 .product-item.asahiru h3 {
-	color: #A0A199;
+	color: #336699;
 }
 
 .product-item.asahiru .badge:before,
 .asahiru .product-button {
-	background: #A0A199;
+	background: #336699;
 }
 
 .product-item.asahiru:hover .product-block {
-	border-color: #A0A199;
+	border-color: #336699;
 }
 
 .product-item.douga h3 {
-	color: #5B5E5E;
+	color: #9EA198;
 }
 
 .product-item.douga .badge:before,
 .douga .product-button {
-	background: #5B5E5E;
+	background: #9EA198;
 }
 
 .product-item.douga:hover .product-block {
-	border-color: #5B5E5E;
+	border-color: #9EA198;
 }
 
 
@@ -344,6 +361,7 @@ a:hover {
 
 .eng-title.news{
 	text-align: center;
+	margin-bottom: 0;
 }
 
 .eng-title.news:after {
@@ -356,15 +374,15 @@ a:hover {
 }
 
 .news-title {
-    margin: 80px 0 40px 0;
+    margin-top: 80px;
     text-align: right;
+    margin-bottom: 40px;
 }
 
 .news-button {
 	background: #F2F2F2;
     padding: 10px 20px;
-    position: relative;
-    top: -55px;
+    display: inline-block;
 }
 
 .news-button span {
@@ -387,7 +405,7 @@ a:hover {
 	width: 10%;
 	font-weight: bold;
 	color: #336699;
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .content {
@@ -446,4 +464,53 @@ a:hover {
     color: #fff;
     font-size: 10px;
     padding: 10px 0;
+}
+
+.white-title {
+	font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
+
+.contact-path {
+    padding: 0;
+    font-size: 0;
+    margin-top: 20px;
+}
+
+.contact-path li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.contact-path li:after {
+    content: '\f105';
+    font-family: FontAwesome;
+    margin: 0px 5px;
+    color: #ababab;
+}
+
+.contact-path li:last-child::after {
+    content: '';
+}
+
+.section img {
+	width: 30%;
+	vertical-align: middle;
+}
+
+.section-content {
+	width: 65%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.right-button {
+	text-align: right;
 }
