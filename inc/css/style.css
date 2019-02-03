@@ -62,7 +62,6 @@ a:hover {
 	display: -o-flex;
 	display: flex;
     justify-content: space-between;
-    padding: 0;
 }
 
 .logo-area a {
@@ -73,12 +72,8 @@ a:hover {
 	margin: 10px 0;
 }
 
-.menu {
+.menu,.report-area {
 	margin-bottom: 20px;
-}
-
-.report-area {
-	margin-bottom: 10px;
 }
 
 .menu-area {
@@ -554,6 +549,10 @@ a:hover {
 	background: #E692F8;
 }
 
+.section-title .badge.yellow {
+	background: #FEFAC0;
+}
+
 .blue-button {
 	display: inline-block;
     background: #0844a4;
@@ -564,6 +563,7 @@ a:hover {
 
 .right-button {
 	text-align: right;
+	margin: 15px 0;
 }
 
 .section {
