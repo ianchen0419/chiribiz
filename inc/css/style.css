@@ -65,8 +65,20 @@ a:hover {
     padding: 0;
 }
 
-.menu,.report-area {
+.logo-area a {
+	display: inline-block;
+}
+
+.logo-area {
+	margin: 10px 0;
+}
+
+.menu {
 	margin-bottom: 20px;
+}
+
+.report-area {
+	margin-bottom: 10px;
 }
 
 .menu-area {
@@ -509,6 +521,37 @@ a:hover {
 	width: 65%;
 	display: inline-block;
 	vertical-align: middle;
+	margin-left: 40px;
+}
+
+.section-title {
+	margin-bottom: 10px;
+}
+
+.section-title h2 {
+	font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding: 0 10px 3px 10px;
+    margin-bottom: 0;
+}
+
+.section-title .badge {
+	display: inline-block;
+    font-size: 12px;
+    background: #A8C6FA;
+    border-radius: 4px;
+    padding: 0px 8px;
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+
+.blue-button {
+	display: inline-block;
+    background: #0844a4;
+    color: #fff;
+    padding: 3px 25px;
 }
 
 .right-button {
