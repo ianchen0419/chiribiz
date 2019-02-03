@@ -515,13 +515,13 @@ a:hover {
 .section img {
 	width: 30%;
 	vertical-align: middle;
+	margin: 0 40px;
 }
 
 .section-content {
-	width: 65%;
+	width: 60%;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 40px;
 }
 
 .section-title {
@@ -540,11 +540,18 @@ a:hover {
 .section-title .badge {
 	display: inline-block;
     font-size: 12px;
-    background: #A8C6FA;
     border-radius: 4px;
     padding: 0px 8px;
     vertical-align: bottom;
     margin-left: 20px;
+}
+
+.section-title .badge.blue {
+	background: #A8C6FA;
+}
+
+.section-title .badge.pink {
+	background: #E692F8;
 }
 
 .blue-button {
@@ -552,8 +559,18 @@ a:hover {
     background: #0844a4;
     color: #fff;
     padding: 3px 25px;
+    font-size: 14px;
 }
 
 .right-button {
 	text-align: right;
+}
+
+.section {
+	padding: 20px 40px;
+	margin: 20px 0;
+}
+
+.gray {
+	background-color: #F2F2F2;
 }
