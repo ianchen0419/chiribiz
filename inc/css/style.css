@@ -1,6 +1,7 @@
 /*
 Blue: 0844A4;
 LightBlue: A8C6FA;
+clearBlue: A8C6FA33;
 */
 
 * {
@@ -13,10 +14,6 @@ LightBlue: A8C6FA;
 
 strong {
 	font-weight: bold;
-}
-
-h1,h2{
-	font-weight: 400;
 }
 
 html, body {
@@ -121,14 +118,12 @@ a:hover {
 	font-size: 40px;
 	color: #fff;
 	letter-spacing: 16px;
-	font-weight: bold;
 	padding-top: 50px;
 	margin: 0 20px auto 20px;
 	text-shadow: 2px 2px 10px #33669980, -2px -2px 10px #33669980;
 }
 
 .eng-title {
-	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 26px;
 	letter-spacing: 5px;
@@ -475,8 +470,6 @@ a:hover {
 
 .white-title {
 	font-size: 28px;
-    font-weight: bold;
-    color: #333;
     text-align: center;
     border-bottom: 1px solid #444;
     padding-bottom: 15px;
@@ -507,7 +500,7 @@ a:hover {
     content: '';
 }
 
-.section img {
+.section > img {
 	width: 30%;
 	vertical-align: middle;
 	margin: 0 40px;
@@ -525,7 +518,6 @@ a:hover {
 
 .section-title h2 {
 	font-size: 20px;
-    font-weight: bold;
     border-bottom: 2px solid #333;
     display: inline-block;
     padding: 0 10px 3px 10px;
@@ -566,6 +558,11 @@ a:hover {
 	margin: 15px 0;
 }
 
+.center-button {
+	margin: 50px 0;
+	text-align: center;
+}
+
 .section {
 	padding: 20px 40px;
 	margin: 20px 0;
@@ -573,4 +570,344 @@ a:hover {
 
 .gray {
 	background-color: #F2F2F2;
+}
+
+.mar_top20 {
+	margin-top: 20px;
+}
+
+.mar_top40 {
+	margin-top: 40px;
+}
+
+.mar_top60 {
+	margin-top: 40px;
+}
+
+
+.fb-button {
+	display: inline-block;
+}
+
+.fb-button i,.fb-content {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fb-button i {
+	color: #4267B2;
+}
+
+.fb-content {
+	text-align: left;
+	margin-left: 3px;
+}
+
+.blue-text {
+	color: #0D6CE5;
+}
+
+.blue-title {
+	background: #0844A4;
+	padding: 12px 0;
+}
+
+.blue-title h1 {
+	color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.blue-title p {
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.point-area {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.point-item {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	background: #A8C6FA33;
+	margin: 0 10px;
+	padding: 0px 20px;
+    height: 260px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.point-item h5 {
+	text-align: center;
+	font-style: italic;
+}
+
+.point-item p {
+	text-align: left;
+}
+
+.line-title {
+    border-bottom: 3px solid #D1D1D1;
+    padding-left: 30px;
+    margin: 60px 0 40px 0;
+}
+
+.line-title h2:after {
+	content: '';
+	width: 100%;
+	min-width: 150px;
+    height: 3px;
+    background: #0844A4;
+    display: block;
+    position: relative;
+    top: 3px;
+}
+
+.line-title h2 {
+	font-size: 22px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.osusume-block {
+	font-size: 0;
+	box-shadow: -2px 6px 11px 0px #b8b8b8;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px 0;
+	margin: 40px 0;
+}
+
+.osusume-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	text-align: center;
+}
+
+.osusume-icon h6 {
+	margin: 0;
+}
+
+.osusume-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+}
+
+.pad_lt20{
+	padding-left: 20px;
+}
+
+.osusume-text p {
+	margin-bottom: 0;
+}
+
+.red-text {
+	color: #B70F0A;
+}
+
+.map-title {
+	margin-bottom: 20px;
+}
+
+.map-item p,.suikei-section p,.suikei-section h6 {
+	margin: 0;
+}
+
+.map-item {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+
+.map-section {
+	margin-bottom: 80px;
+}
+
+.suikei-section {
+	margin: 60px 0;
+}
+
+.product-table th {
+	background: #D4E3FC;
+	color: #0844A4;
+}
+
+.product-table td {
+	background: #F7F6F6;
+}
+
+.product-table th, .product-table td {
+	padding: 15px 20px;
+}
+
+.price-table th {
+	background: #0844A4;
+	color: #fff;
+}
+
+.price-table td {
+	background: #F7F6F6;
+	font-weight: bold;
+	text-align: center;
+}
+
+.price-table th, .price-table td {
+	padding: 20px;
+}
+
+.nostyle-list {
+	padding-left: 0px;
+}
+
+.nostyle-list li {
+	list-style: none;
+}
+
+.green-button {
+	color: #fff;
+	background: #4C7A34;
+	width: 400px;
+    display: inline-block;
+    padding: 12px 0;
+    border-radius: 4px;
+}
+
+.clear-title {
+	font-size: 22px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.youtube-area {
+	font-size: 0;
+}
+
+.youtube-item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 20px;
+}
+
+.asahiru-item {
+	margin-left: 0;
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+
+.code-image {
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: 0;
+	width: 800px;
+}
+
+.right-text {
+	text-align: right;
+}
+
+.nagare-item {
+	margin: 15px 10px;
+	padding: 0 10px;
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.blue-wrapper {
+	text-align: center;
+	margin: 60px;
+}
+
+.blue-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	background: #A8C6FA33;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #7a7a7a;
+	margin: 0px 15px;
+}
+
+.blue-image {
+	margin: 12px 20px;
+    text-align: center;
+    height: 110px;
+}
+
+.blue-image figcaption {
+	margin-top: 10px;
+}
+
+.blue-item p {
+	border-top: 1px solid #7a7a7a;
+	background: #fff;
+    margin-bottom: 0;
+    padding: 10px 12px;
+    height: 110px;
+}
+
+.blue-wrapper .clear-title {
+	color: #0844A4;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.point-title {
+	margin: 80px 10px 20px 10px;
+}
+
+.point-title .badge {
+	background: #0844A4;
+	font-style: italic;
+	display: inline-block;
+	color: #fff;
+	vertical-align: middle;
+	font-weight: bold;
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.point-title h3 {
+	font-size: 22px;
+	font-weight: normal;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.line-block {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-right: 40px;
+	text-align: center;
+	border: 1px solid #0844A4;
+	height: 250px;
+}
+
+.line-block ul {
+	text-align: left;
+	margin-top: 20px;
 }
