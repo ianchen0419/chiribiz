@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="ja" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link rel="icon" href="inc/img/top/favicon.ico" />  
+	<title>楽しいチリビジ</title>
+	<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet prefetch" href="inc/css/style.css" />
+</head>
+
+<body>
+	<header id="header"></header>
+	<div id="visual">
+		<div class="blue-title">
+			<h1>Location Passport</h1>
+			<p>住所を自動処理して緯度経度を付与する「ジオコーディング」を実現<br>地理情報システムの入口で必須のパスポート</p>
+		</div>
+	</div>
+	<main id="contact">
+		<div class="wrapper-size">
+			<ol class="contact-path">
+				<li>
+					<a href="index.html">ホーム</a>
+				</li>
+				<li>
+					<a href="products.html">製品 / サービス</a>
+				</li>
+				<li class="active">
+					<a href="locatioin-passport.html">Location Passport</a>
+				</li>
+			</ol>
+			<p>お手持ちの顧客リストの件数はどのくらいありますか？<br>10件や20件なら、地理情報システム（GIS）で地図上に一つずつ登録して活用することも難しくないでしょう。<br>でも、1000件ならどうでしょうか？<br>ちょっとした顧客データなら、100万件を超えることもざらです。<br>こんな時は、手持ちリストの住所の文字列から自動的に緯度経度を対応させ、GISで活用可能な位置情報に加工する「ジオコーディング」が便利です。<br>「Location Passport」を活用すれば、従来は専門的な知識が必要でなんとなく難しいと敬遠していたジオコーディング処理が、手軽にパソコン上で実現できます</p>
+			<div class="line-title">
+				<h2>特徴</h2>
+			</div>
+			<article>
+				<h4>高速処理</h4>
+				<p>マッチングの手法やデータベースの構造に独自のノウハウを導入。秒あたり5500行を超える超高速なジオコーディング処理を実現しています。</p>
+				<h4 class="mar_top40">高い秘匿性</h4>
+				<p>PC上で単独動作するアプリケーションのため、ネットワーク接続は不要です。したがって、秘匿性の高い顧客等の住所がインターネットを通じて流れるリスクはありません。</p>
+				<h4 class="mar_top40">融通性高い利用環境</h4>
+				<p>オンラインでのジオコーディングサービスで一般的な、一日あたりのジオコーディングの数量制限はありません。また、Location Passportでジオコードした結果は組織内であれば、他のGISソフト等で自由に利用することができます。</p>
+				<h4 class="mar_top40">番地号レベルまで可能な高精度な処理（オプション）</h4>
+				<p>標準住所辞書では最大で街区レベルまでのジオコーディングが可能です。オプションの高精度住所辞書を導入することで、全国的に番地号レベルのピンポイントのジオコーディングが実現します。</p>
+
+				<img src="inc/img/products/geocoder.png" alt="geocoder" width="600" class="mar_top20" />
+				<p>処理するcsvデータを開き、処理する住所列を選択して変換を実行するだけでジオコーディングが簡単に実現します。 各レコードに、緯度経度および精度を示すマッチレベルが付与されます。結果はcsv出力して、各ソフトウェアで活用可能です。</p>
+			</article>
+
+			<div class="line-title">
+				<h2>標準住所辞書と高精度住所辞書</h2>
+			</div>
+			<p>Location Passport のジオコーディング処理をつかさどる住所辞書は標準版・高精度版の2種類を用意しています。<br>標準版では、国土交通省が公開する「街区レベル位置参照情報」を住所辞書として利用しています。都市計画区域相当のエリアについて街区レベルの精度でジオコーディングが可能です。<br>高精度版は、全国的に番地号レベルでカバーしたインクリメントP製の住所データを使用しています。</p>
+
+			<h4 class="mar_top40">高精度住所辞書でジオコーディングした例</h4>
+			<p>おおむね建物に対応したピンポイントのジオコーディングが可能です。</p>
+			<img src="inc/img/products/高精度住所辞書.png" alt="高精度住所辞書" width="800" />
+
+			<h4 class="mar_top40">標準辞書でジオコーディングした例</h4>
+			<p>街区の代表点にジオコーディングされますので、同一街区のポイントは重なって表示されます。</p>
+			<img src="inc/img/products/標準住所辞書.png" alt="標準住所辞書" width="800" />
+
+			<h4 class="mar_top40">KML形式でエクスポートして利用可能</h4>
+			<p>ジオコーディング結果はKML形式で保存可能です。<br>専用のGISアプリがなくても、Google Earthで結果を確認することができます。</p>
+			<img src="inc/img/products/KML形式.png" alt="KML形式" width="800" />
+
+			<div class="line-title">
+				<h2>動作環境</h2>
+			</div>
+
+			<ul>
+				<li>本ツールはWindowsの.NETアプリケーションです。実行には.NET Framework4.5以上がインストールされている必要があります。</li>
+				<li>本ツールのアプリと住所DB含むフォルダを任意の場所に置くことで使用開始できます。標準のフォルダ容量は287MBです。</li>
+				<li>ジオコード処理ではあらかじめ住所DBをメモリにロードするため、使用する住所辞書により必要とするメモリ容量が変わります。本ツール付属の標準住所DBの場合は約300MB以上、オプションの高精度辞書の場合は約650MB以上を必要とします。</li>
+				<li>本アプリケーションはLGPLプログラムライブラリ geocorder.dll を使用します。</li>
+			</ul>
+
+			<div class="line-title">
+				<h2>価格</h2>
+			</div>
+			<table class="price-table" width="800">
+				<thead>
+					<tr>
+						<th width="30%"></th>
+						<th width="40%">内容</th>
+						<th width="40%">価格（税別）</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ソフトウェア本体</td>
+						<td>標準住所辞書を含む</td>
+						<td>40万円<br>+<br>年間保守（8万円/年）</td>
+					</tr>
+					<tr>
+						<td rowspan="3">高精度住所辞書</td>
+						<td>1年間有効</td>
+						<td>115万円</td>
+					</tr>
+					<tr>
+						<td>3年間有効<br>毎年更新</td>
+						<td>325万円</td>
+					</tr>
+					<tr>
+						<td>買切り・更新なし</td>
+						<td>200万円</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>※都道府県単位でお求めの場合はお問い合わせください。</p>
+
+			<div class="center-button">
+				<a href="contact-us.html" class="green-button">お問い合わせ</a>
+			</div>
+
+			<p>「Location Passport」に関するご質問は、お問い合わせフォームからお送り下さい。<br>オンラインでアクセス可能なデモサイトのご紹介など可能です。</p>
+			
+		</div>
+	</main>
+	<footer id="footer"></footer>
+	<script src="inc/js/base.js"></script>
+</body>
+</html>
