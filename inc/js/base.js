@@ -31,9 +31,9 @@ function menuHighlight(){
 	var menuList=document.querySelectorAll('nav li');
 	if(nowPath==='' || nowPath==='index.html'){
 		menuList[0].classList.add('active');
-	}else if(nowPath==='company.html' || nowPath==='outline.html' || nowPath==='message.html' || nowPath==='books.html'){
-		menuList[1].classList.add('active');
 	}else if(nowPath==='products.html' || nowPath==='miraitoukei.html' || nowPath==='asahiru.html' || nowPath==='dogadehazard.html' || nowPath==='locatioin-passport.html' || nowPath==='roadinfo.html' || nowPath.indexOf('miraishoken')===0 || nowPath==='act-terms.html' || nowPath==='privacy-policy.html'){
+		menuList[1].classList.add('active');
+	}else if(nowPath==='company.html' || nowPath==='outline.html' || nowPath==='message.html' || nowPath==='books.html'){
 		menuList[2].classList.add('active');
 	}else if(nowPath==='blog.html'){
 		menuList[3].classList.add('active');
