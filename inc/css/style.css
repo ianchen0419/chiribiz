@@ -606,6 +606,10 @@ a:hover, input[type="submit"]:hover {
 	background-color: #F2F2F2;
 }
 
+.mar_btm0 {
+	margin-bottom: 0px;
+}
+
 .mar_top10 {
 	margin-top: 10px;
 }
@@ -729,7 +733,7 @@ a:hover, input[type="submit"]:hover {
 .osusume-icon {
 	display: inline-block;
 	vertical-align: middle;
-	width: 30%;
+	width: 25%;
 	text-align: center;
 }
 
@@ -741,6 +745,7 @@ a:hover, input[type="submit"]:hover {
 	display: inline-block;
 	vertical-align: middle;
 	width: 70%;
+	padding-right: 20px;
 }
 
 .pad_lt20{
@@ -777,6 +782,11 @@ a:hover, input[type="submit"]:hover {
 	margin: 60px 0;
 }
 
+.suikei-section h6 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
 .product-table th {
 	background: #D4E3FC;
 	color: #0844A4;
@@ -791,7 +801,7 @@ a:hover, input[type="submit"]:hover {
 }
 
 .company-table {
-	margin-top: 20px;
+	margin: 20px auto;
 }
 
 .company-table th {
@@ -853,6 +863,7 @@ a:hover, input[type="submit"]:hover {
 
 .youtube-area {
 	font-size: 0;
+	text-align: center;
 }
 
 .youtube-item {
@@ -903,7 +914,7 @@ a:hover, input[type="submit"]:hover {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 1px solid #7a7a7a;
+	border: 1px solid #577fa6;
 	margin: 0px 15px;
 }
 
@@ -1237,9 +1248,9 @@ a:hover, input[type="submit"]:hover {
 
 .company-item {
 	display: inline-block;
-	width: 25%;
+	width: 30%;
 	vertical-align: top;
-	margin: 30px;
+	margin: 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1247,11 +1258,13 @@ a:hover, input[type="submit"]:hover {
 
 .company-item h3 {
 	font-size: 18px;
-	font-weight: normal;
-	text-align: center;
-	background: #d4e3fc;
+    font-weight: normal;
+    text-align: center;
+    background: #d4e3fcc9;
     margin: 0;
     padding: 12px 0;
+    position: relative;
+    top: -50px;
 }
 
 .right-image {
