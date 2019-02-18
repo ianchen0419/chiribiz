@@ -1902,6 +1902,10 @@ body {
 	.news-title {
 		margin-top: 40px;
 	}
+
+	#mobileMenu {
+		display: none;
+	}
 }
 
 @-webkit-keyframes show {
