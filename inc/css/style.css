@@ -1700,8 +1700,9 @@ body {
 		overflow: hidden;
 	}
 
-	#visual {
+	#visual.top-image {
 		transition-duration: 0.3s;
+		height: 160px;
 	}
 
 	#mobileMenu {
