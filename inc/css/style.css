@@ -1599,6 +1599,10 @@ body {
 	display: none;
 }
 
+#mobileMenu {
+	display: none;
+}
+
 /*RWD*/
 @media (max-width: 768px) {
 
@@ -1903,9 +1907,6 @@ body {
 		margin-top: 40px;
 	}
 
-	#mobileMenu {
-		display: none;
-	}
 }
 
 @-webkit-keyframes show {
