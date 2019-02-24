@@ -40,3 +40,23 @@ function menuHighlight(){
 	}
 }
 
+function goTop(){
+	var id=window.setInterval(function(){
+
+		var nowLength;
+		if(navigator.userAgent.indexOf('Chrome')!==-1){
+			nowLength=document.documentElement.scrollTop;
+		}else{
+			nowLength=document.body.scrollTop;
+		}
+
+		if(nowLength==0){
+			clearInterval(id);
+		}else if(nowLength<30){
+			window.scrollBy(0,-1);
+		}else{
+			window.scrollBy(0,-30);
+		}
+		
+	},10);
+}
