@@ -40,6 +40,9 @@ input[type="submit"] {
 	-webkit-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 a:hover, input[type="submit"]:hover {
@@ -2035,6 +2038,15 @@ body {
 		text-align: left;
 	}
 
+	.point-title {
+		margin: 80px 0px 20px 0px;
+	}
+
+	.point-title h3 {
+		font-size: 20px;
+    	font-weight: bold;
+	}
+
 	.point-title .badge {
 		margin-bottom: 10px;
 	}
@@ -2164,12 +2176,10 @@ body {
 		margin: 10px 0;
 	}
 
-	.faq-table {
-		min-width: 500px;
-	}
-
 	.report-iframe {
-		height: 930px;
+		height: 980px;
+		margin: 0 -20px;
+    	width: 100vw;
 	}
 
 	.company-item {
