@@ -2253,6 +2253,10 @@ body {
 		width: 100%;
 		text-align: left;
 	}
+
+	.price-table {
+		width: auto;
+	}
 }
 
 @-webkit-keyframes show {
