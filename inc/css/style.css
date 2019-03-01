@@ -1,15 +1,8 @@
-/*
-Blue: 0844A4;
-LightBlue: A8C6FA;
-clearBlue: A8C6FA33;
-*/
-
 * {
 	color: #333;
 	font-family: 'Century Gothic','Avenir','Helvetica neue','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 	letter-spacing: 0.1em;
 	font-size: 15px;
-	/*border: 1px solid #000;*/
 }
 
 strong {
@@ -979,6 +972,10 @@ body {
 	margin: 40px 0;
 }
 
+.line-title + .point-title {
+	margin-top: 20px;
+}
+
 .point-title {
 	margin: 80px 10px 20px 10px;
 }
@@ -1010,7 +1007,6 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 20px;
-	margin-right: 40px;
 	text-align: center;
 	border: 1px solid #0844A4;
 	height: 250px;
@@ -1019,6 +1015,13 @@ body {
 .line-block ul {
 	text-align: left;
 	margin-top: 20px;
+}
+
+.line-arrow {
+	font-size: 30px;
+	margin: 0 20px;
+    line-height: 230px;
+    color: #a8c6fa;
 }
 
 .miraishoken-title {
@@ -1032,16 +1035,15 @@ body {
 }
 
 .miraishoken-title h1 {
-	font-family: YuKyo-Medium, STKaiti, DFKai-sb;
 	color: #fff;
 	font-size: 40px;
 	font-weight: normal;
+	margin-bottom: 10px;
 }
 
 .miraishoken-title p {
-	font-family: YuKyo-Medium, STKaiti, DFKai-sb;
 	color: #fff;
-	font-size: 22px;
+	margin-top: 0;
 }
 
 #visual {
@@ -1198,13 +1200,6 @@ body {
 
 .green-step-item.user .circle {
 	color: #8BC34A;
-}
-
-.green-step-item.company .circle {
-	font-weight: bold;
-	color: #fff;
-	background: #8BC34A;
-	font-size: 26px;
 }
 
 .green-step-item.company {
@@ -2057,6 +2052,17 @@ body {
 		height: auto;
 	}
 
+	.line-arrow {
+		line-height: normal;
+    	margin: 20px auto;
+    	text-align: center;
+    	width: 100%;
+	}
+
+	.line-arrow:before {
+		content: '\f063';
+	}
+
 	.blue-title h1 {
 		font-size: 24px;
     	padding: 0 10px;
@@ -2129,11 +2135,11 @@ body {
 	}
 
 	.green-step-item .people {
-		width: 16%;
+		width: 19%;
 	}
 
 	.green-step-item .dialog {
-		width: 80%;
+		width: 77%;
 	    padding: 30px 10px;
 	    box-sizing: border-box;
 	    border-radius: 15px;
@@ -2266,6 +2272,10 @@ body {
 
 	.price-table {
 		width: auto;
+	}
+
+	.terms-title {
+		display: inline;
 	}
 }
 
